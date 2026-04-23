@@ -1,4 +1,4 @@
-import { ResidencePermitDetailsClass } from "@govuk-one-login/data-vocab/credentials";
+import { ResidencePermitDetailsClass } from "@govuk-one-login/data-vocab/credentials.js";
 
 export const ALICE_PARKER_BRP_RESIDENCE_PERMIT: ResidencePermitDetailsClass =
   Object.freeze<ResidencePermitDetailsClass>({

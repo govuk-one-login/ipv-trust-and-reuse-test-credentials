@@ -1,4 +1,4 @@
-import { DrivingPermitDetailsClass } from "@govuk-one-login/data-vocab/credentials";
+import { DrivingPermitDetailsClass } from "@govuk-one-login/data-vocab/credentials.js";
 
 export const ALICE_PARKER_DVLA_DRIVING_PERMIT: DrivingPermitDetailsClass =
   Object.freeze<DrivingPermitDetailsClass>({
