@@ -1,18 +1,35 @@
 {
-  "name": "ipv-trust-and-reuse-test-credentials",
-  "version": "1.0.0",
-  "description": "",
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
-  "main": "index.js",
-  "scripts": {
-    "prepublish": "tsc"
-  },
-  "devDependencies": {
-    "typescript": "5.9.2"
-  },
   "dependencies": {
     "@govuk-one-login/data-vocab": "2.0.2"
-  }
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "eslint": "10.2.1",
+    "eslint-config-prettier": "10.1.8",
+    "eslint-plugin-prettier": "5.5.5",
+    "typescript": "5.9.2",
+    "typescript-eslint": "8.59.0"
+  },
+  "exports": {
+    "./*": {
+      "default": "./dist/*.js",
+      "types": "./dist/*.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "name": "@govuk-one-login/test-credentials",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/govuk-one-login/ipv-trust-and-reuse-test-credentials"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "prepublishOnly": "npm run build"
+  },
+  "type": "module",
+  "version": "0.0.1"
 }

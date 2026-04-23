@@ -1,4 +1,4 @@
-import { PassportDetailsClass } from "@govuk-one-login/data-vocab/credentials";
+import { PassportDetailsClass } from "@govuk-one-login/data-vocab/credentials.js";
 
 export const ALICE_DOE_PASSPORT: PassportDetailsClass =
   Object.freeze<PassportDetailsClass>({

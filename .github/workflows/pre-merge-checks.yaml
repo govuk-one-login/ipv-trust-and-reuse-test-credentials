@@ -1,0 +1,20 @@
+name: pre-merge-checks
+
+on:
+  pull_request:
+    types: [ opened, synchronize, reopened, ready_for_review, labeled ]
+
+permissions: {}
+
+jobs:
+  build:
+    if: ${{ !github.event.pull_request.draft }}
+    uses: ./.github/workflows/build.yaml
+    permissions:
+      contents: read
+
+  pre-commit:
+    if: ${{ !github.event.pull_request.draft }}
+    uses: ./.github/workflows/pre-commit.yaml
+    permissions:
+      contents: read
