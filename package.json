@@ -19,7 +19,7 @@
   "files": [
     "dist"
   ],
-  "name": "@govuk-one-login/test-credentials",
+  "name": "@govuk-one-login/ipv-trust-and-reuse-test-credentials",
   "repository": {
     "type": "git",
     "url": "https://github.com/govuk-one-login/ipv-trust-and-reuse-test-credentials"
@@ -31,5 +31,5 @@
     "prepublishOnly": "npm run build"
   },
   "type": "module",
-  "version": "1.0.0"
+  "version": "0.0.1"
 }
