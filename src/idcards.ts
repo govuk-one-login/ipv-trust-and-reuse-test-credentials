@@ -1,4 +1,4 @@
-import { IdCardDetailsClass } from "@govuk-one-login/data-vocab/credentials";
+import { IdCardDetailsClass } from "@govuk-one-login/data-vocab/credentials.js";
 
 export const EEA_VALID_ID_CARD: IdCardDetailsClass =
   Object.freeze<IdCardDetailsClass>({

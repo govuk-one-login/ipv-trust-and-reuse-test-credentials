@@ -1,4 +1,4 @@
-import { BirthDateClass } from "@govuk-one-login/data-vocab/credentials";
+import { BirthDateClass } from "@govuk-one-login/data-vocab/credentials.js";
 
 export const ALICE_DOE_BIRTH_DATE: BirthDateClass =
   Object.freeze<BirthDateClass>({
