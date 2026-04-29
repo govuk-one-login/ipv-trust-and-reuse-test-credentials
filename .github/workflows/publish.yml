@@ -48,5 +48,5 @@ jobs:
 
       - name: Publish npm package
         run: |
-          npm version "${{ steps.release-name.outputs.release_version }}"
+          npm version --no-git-tag-version "${{ steps.release-name.outputs.release_version }}"
           npm publish --provenance
