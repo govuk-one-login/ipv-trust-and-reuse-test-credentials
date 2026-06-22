@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@govuk-one-login/data-vocab": "2.0.2"
+    "@govuk-one-login/data-vocab": "2.0.3"
   },
   "devDependencies": {
     "@govuk-one-login/ipv-trust-and-reuse-eslint-rules": "1.0.6",
