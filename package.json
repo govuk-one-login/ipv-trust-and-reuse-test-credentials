@@ -4,8 +4,9 @@
   },
   "devDependencies": {
     "@govuk-one-login/ipv-trust-and-reuse-eslint-rules": "1.0.7",
+    "@typescript/native": "npm:typescript@7.0.2",
     "eslint": "10.7.0",
-    "typescript": "7.0.2"
+    "typescript": "npm:@typescript/typescript6@6.0.2"
   },
   "exports": {
     "./*": {
