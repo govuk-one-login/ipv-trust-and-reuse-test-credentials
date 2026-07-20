@@ -3,9 +3,9 @@
     "@govuk-one-login/data-vocab": "2.0.3"
   },
   "devDependencies": {
-    "@govuk-one-login/ipv-trust-and-reuse-eslint-rules": "1.0.6",
-    "eslint": "10.6.0",
-    "typescript": "6.0.3"
+    "@govuk-one-login/ipv-trust-and-reuse-eslint-rules": "1.0.7",
+    "eslint": "10.7.0",
+    "typescript": "7.0.2"
   },
   "exports": {
     "./*": {
