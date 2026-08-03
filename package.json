@@ -3,7 +3,7 @@
     "@govuk-one-login/data-vocab": "2.0.3"
   },
   "devDependencies": {
-    "@govuk-one-login/ipv-trust-and-reuse-eslint-rules": "1.0.9",
+    "@govuk-one-login/ipv-trust-and-reuse-eslint-rules": "1.0.10",
     "@typescript/native": "npm:typescript@7.0.2",
     "eslint": "10.8.0",
     "typescript": "npm:@typescript/typescript6@6.0.2"
